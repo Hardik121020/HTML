@@ -1,0 +1,42 @@
+h1
+{
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+  	font-size:200%;
+  	font-family :"Times New Roman",serif;
+}
+
+header
+{
+	background: #9c9c9c;
+}
+
+a
+{
+	background-color: #B3B3B3;
+	display :inline;
+ 	color : #000000;
+}
+
+aside
+{
+  	display : none;
+}
+
+section
+{
+  	background: #858585;
+}
+
+h2
+{
+  	color : blue;
+	text-transform: uppercase;
+  	font-size:200%;
+}
+
+p
+{
+  	text-align : left;
+}
