@@ -110,7 +110,7 @@ nav a:active
 	font-family:sans-serif,serif;
 	font-size : 130%;
 	position: relative;
-	left: 5px;
+	left: 10px;
 	text-rendering: auto;
 
 }
