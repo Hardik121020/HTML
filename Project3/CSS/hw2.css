@@ -1,0 +1,130 @@
+/*Section for background image on the top of the web page*/
+header
+{
+	background : url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg );
+	background-size: auto;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin : 2px;
+	margin:0 auto;
+	background-size: 100%;
+	padding-bottom: 50px;
+	padding-top : 10px;
+	clear: inherit;
+}
+
+/*Heading of the web page*/
+h1
+{
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+  	font-size:200%;
+  	font-family :sans-serif,serif;
+  	padding : 10px;
+  	font-size-adjust: 0.58;
+}
+
+/*For links on the top of the page*/
+
+nav
+{
+	opacity: 0.7;
+}
+
+
+nav a
+{
+	background :#B2B2B2;
+	display :inline;
+ 	color : #000000;
+ 	text-decoration: none;
+ 	margin-right:10% ;
+ 	font-size: 150%;
+ 	margin : 5%;
+ 	font-weight: 900;
+ 	border-radius: 5px;
+ 	padding:10px;
+ 	font-size-adjust: 0.5;
+}
+.active
+{
+	background :#FFFFFF;
+}
+
+nav a:hover
+{
+  background : #FFFFFF;
+  color :#000000;
+}
+nav a:focus
+{
+  background : #FFFFFF;
+  color :#000000;
+}
+nav a:active 
+{
+  background : #B3B3B3;
+  color :#000000;
+}
+
+/*Orange section*/
+.left
+{
+	background : #ff4f26;
+	width: 25%;
+	float: left;
+}
+
+.left img
+{
+	border: 30px #000000;
+	width:75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:30px;
+	padding-bottom: 35px;
+	border: 5px #000000;
+	
+}
+/*Text Section*/
+.right
+{
+	padding : 5px;
+	text-align: justify;
+}
+
+.right h2
+{
+	font-size: 250%;
+	font-weight:bold;
+	text-rendering: auto;
+	font-family:sans-serif,serif;
+	text-align: center;
+}
+
+.right p
+{
+	font-family:sans-serif,serif;
+	font-size : 130%;
+	position: relative;
+	left: 5px;
+	text-rendering: auto;
+
+}
+/*For History page only*/
+ul li
+{
+	position: relative;
+	left: 15px;
+	bottom: 15px;
+}
+/*For teams page only*/
+
+table tr
+{
+	position: relative;
+	left: 15px;
+	font-size: 120%;	
+}
