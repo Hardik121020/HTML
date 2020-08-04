@@ -47,10 +47,6 @@ nav a
  	padding:10px;
  	font-size-adjust: 0.5;
 }
-.active
-{
-	background :#FFFFFF;
-}
 
 nav a:hover
 {
