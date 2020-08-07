@@ -1,0 +1,22 @@
+div
+{
+	border : 2px solid #000000;
+	width: 200px;
+	height: 100px;
+	display : inline-block;
+	transition : 2s ease;
+	width : 100px;
+	height: 100px;
+	padding : 10px;
+	margin : 5px;
+	box-sizing: border-box;
+}
+div:focus
+{
+	background-color: #FFFF00;
+}
+div:hover
+{
+	width:200px;
+	background-color: #800040;
+}
