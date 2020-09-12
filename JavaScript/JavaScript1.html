@@ -2,16 +2,23 @@
 <html lang="en">
 	<head>
 		<title>Events in JavaScript </title>
-		<script src = "JS/function.js"></script>
+		<script src = "JS/function1.js"></script>
 		<link rel = "styleSheet" href = "CS/style.css"></link>
 	</head>
 
 	<body>
 		<h1>Modify the DOM</h1>
-		<button onclick = "document.getElementById('change').innerHTML = 'You Clicked the First buttion';">First</button>
-		<button onclick = "document.getElementById('change').innerHTML = 'You Clicked the Second buttion';">Second</button>
+		<button type = "button" onclick = "document.getElementById('change').innerHTML = 'You Clicked the First buttion';">First</button>
+		<button  type = "button" onclick = "document.getElementById('change').innerHTML = 'You Clicked the Second buttion';">Second</button>
 		<p>The Code Should not change</p>
 		<p id = "change">This will chanege when you click the buttons</p>
 		<p>This Should not change either</p>
+		<br><br>
+
+		<h1>Changing the Style</h1>
+		<p>JavaScript can change the style of an HTML element.</p>
+		<button type = "button" onclick ="openMe()">Open!</button>
+		<button type = "button" onclick = "closeMe()">Close!</button>
+		<p id = "change1">Extra details... You can open and close this paragraph using the buttons above</p>
 	</body>
 </html>
