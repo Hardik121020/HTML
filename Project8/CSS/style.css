@@ -1,0 +1,22 @@
+h1 
+{
+	font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+
+body
+{
+	padding-left: 550px;
+	padding-right: 30%; 
+}
+
+.form-group
+{
+	padding-top: 10px;
+}
+
+.form-control
+{
+	padding-right: 200px;
+}
